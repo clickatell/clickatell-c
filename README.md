@@ -1,20 +1,29 @@
-C library that integrates with Clickatell HTTP and REST APIs
+Clickatell C Library
 ============================================================
 
-Description of contents:
+that integrates with Clickatell HTTP and REST APIs
+
+You can see our other libraries and more documentation at the [Clickatell APIs and Libraries Project](http://clickatell.github.io/).
+
+------------------------------------
+
+
+Project Contents:
 ------------------------
-About:            
+**About**
 This package allows one to build a Clickatell SMS library that can be linked to your C-application. Said library provides public functions which make calls to Clickatell's HTTP and REST APIs, allowing one to send SMSes, query their user credit balance, query an SMS status, query the cost of an SMS,check SMS route coverage and stop an SMS.
 
 The package also contains a simple C test application that when compiled, links with the Clickatell SMS library. This test application indicates how to test SMS functionality of the Clickatell SMS library.
 
-Makefiles:    
+**Makefiles**
 2 Makefiles - one builds the Clickatell SMS library, and the other builds the test application
 
-Test application:    
+**Test application**
+
 test_clickatell_sms (test binary that calls public functions from the clickatell_sms.a library)
 
-Library:    
+**Library**
+
 clickatell_sms.a    (Library that can be linked with your C application)
 
 Author:    
